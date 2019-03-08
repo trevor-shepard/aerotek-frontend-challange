@@ -1,0 +1,92 @@
+
+body {
+  background: linear-gradient(180deg, #90F7EC, #32CCBC);
+  
+}
+
+h1, h3 {
+  font-family: 'Roboto';
+}
+#timeline-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#timeline-container > div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF6E7;
+  border-radius: 10px;
+  border: 2px solid black;
+  
+}
+
+.vis-item {
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.edit-form-container {
+  height: 40%;
+  width: 45%;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 1px solid black;
+  background: whitesmoke;
+  margin: 40px;
+}
+
+.edit-form {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.edit-form-label {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-form-input {
+  font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px auto;
+  text-align:center;
+  align-content: center;
+  background: white;
+}
+
+
+.date-input {
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.edit-form-submit{
+  width: min-content;
+  background: none;
+  fill: none;
+  border: 2px solid#11402d;
+  font-size: 1.2rem;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  color: #11402d;
+  margin: 5%;
+  
+}
